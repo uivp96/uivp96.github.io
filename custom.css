@@ -194,6 +194,7 @@ a{
 }
 
 .tombol-dribbble{
+	margin-left: 0 !important;
 	font-weight: bold;
 	padding: 20px 50px;
 	color: #7155CA;
@@ -367,7 +368,8 @@ a{
 	}
 
 	.cont{
-		border-bottom-left-radius: 80px;
+		border-bottom-left-radius: 0;
+		height: 922px;
 	}
 
 	.perkenalan div:first-child {
@@ -394,12 +396,10 @@ a{
 	}
 
 	.gambarku img {
-	    margin-top: 27px;
-	    width: 90%;
-	    position: absolute;
-	    right: -145px;
-	    top: 90px;
-	    opacity: 0.4;
+	    margin-top: 30px;
+	    width: 100%;
+	    position: unset;
+	    opacity: 1;
 	}
 
 	.tombol-hero {
@@ -446,6 +446,7 @@ a{
 	}
 
 	.projek-section{
+		margin-top: 150px;
 		margin-bottom: 200px;
 	}
 
@@ -478,7 +479,7 @@ a{
 	.kontak-section{
 		padding: 138px 30px;
 		height: auto;
-		border-radius: 0px 80px 0px 0px;
+		border-radius: 0px 0 0px 0px;
 	}
 
 	.tombol-kontak {
@@ -512,5 +513,23 @@ a{
 	    transition: 0.3s;
 	    border-radius: 31px;
 	}
+
+	.gambar-ukuran-hp{
+		margin-top: 27px;
+	    width: 462px;
+	    position: absolute;
+	    left: 72px;
+	    top: 90px;
+	    opacity: 0.3;
+	    z-index: -3;
+	}
+
+	.perkenalan{
+		margin-top: 80px;
+	}
+
+	/*.gambarku img{
+		display: none;
+	}*/
 
 }
