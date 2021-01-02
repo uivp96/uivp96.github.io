@@ -423,6 +423,75 @@ a{
 	max-width: 60%;
 }
 
+.body-link{
+	background: linear-gradient(79.04deg, #4158D0 0%, #C850C0 59.93%, #FFCC70 116.16%);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+.body-link img{
+	display: none;
+}
+
+.semua-tombol{
+	display: flex;
+	flex-direction: column;
+	z-index: 20;
+}
+
+.semua-tombol a{
+	margin-bottom: 28px;
+}
+
+.semua-tombol a:last-child{
+	margin-bottom: 0;
+}
+
+.tombol-utama{
+	background: #FE2E63;
+	box-shadow: 0px 7.8806px 19.7015px rgba(254, 46, 99, 0.5);
+	border-radius: 30.5373px;
+	padding: 25px 78px;
+	min-width: 358px;
+	max-width: 358px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+	color: #FFFFFF;
+	transition: background 0.3s ease-out;
+}
+
+.tombol-utama:hover{
+	background: #ed2c5d;
+	color: white;
+}
+
+.tombol-kedua{
+	background: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(20px);
+	border-radius: 30.5373px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	color: #FFFFFF;
+	min-width: 358px;
+	max-width: 358px;
+	padding: 25px 68px;
+	text-align: center;
+	transition: background 0.3s ease-out;
+}
+
+.tombol-kedua:hover{
+	background: rgba(255, 255, 255, 0.5);
+	color: white;
+}
 
 
 
@@ -482,6 +551,14 @@ a{
 
 	.nav-sosmed{
 		display: none;
+	}
+
+	.body-link img{
+		display: none;
+	}
+
+	.body-link{
+		justify-content: center;
 	}
 
 }
@@ -590,6 +667,82 @@ a{
 	.menu-bars a{
 		margin-right: 0;
 	}
+
+	.body-link{
+		background: linear-gradient(79.04deg, #4158D0 0%, #C850C0 59.93%, #FFCC70 116.16%);
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		overflow: hidden;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.body-link img{
+		position: absolute;
+		top: -12px;
+		left: 24px;
+		z-index: 10;
+		opacity: 0.4;
+	}
+
+	.semua-tombol{
+		display: flex;
+		flex-direction: column;
+		z-index: 20;
+	}
+
+	.semua-tombol a{
+		margin-bottom: 28px;
+	}
+
+	.semua-tombol a:last-child{
+		margin-bottom: 0;
+	}
+
+	.tombol-utama{
+		background: #FE2E63;
+		box-shadow: 0px 7.8806px 19.7015px rgba(254, 46, 99, 0.5);
+		border-radius: 30.5373px;
+		padding: 20px 78px;
+		min-width: 300px;
+		max-width: 300px;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 150%;
+		text-align: center;
+		color: #FFFFFF;
+		transition: background 0.3s ease-out;
+	}
+
+	.tombol-utama:hover{
+		background: #ed2c5d;
+		color: white;
+	}
+
+	.tombol-kedua{
+		background: rgba(255, 255, 255, 0.3);
+		backdrop-filter: blur(20px);
+		border-radius: 30.5373px;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 150%;
+		color: #FFFFFF;
+		min-width: 300px;
+		max-width: 300px;
+		padding: 20px 68px;
+		text-align: center;
+		transition: background 0.3s ease-out;
+	}
+
+	.tombol-kedua:hover{
+		background: rgba(255, 255, 255, 0.5);
+		color: white;
+	}
+
+
 }
 
 
@@ -890,6 +1043,16 @@ a{
 
 	.img-fluid{
 		max-width: 100%;
+	}
+
+	.body-link img{
+		display: block;
+	}
+
+	.body-link{
+		justify-content: unset;		
+		align-items: center;
+		padding: 193px 30px 124px 30px;
 	}
 
 }
