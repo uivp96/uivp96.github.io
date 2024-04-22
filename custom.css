@@ -38,14 +38,14 @@ a{
 }
 
 .perkenalan div:nth-child(2){
-	font-size: 55px;	
+	font-size: 42px;	
 	line-height: 140%;
 	font-weight: bold;
 }
 
 .perkenalan div:nth-child(3){
 	font-size: 16px;
-	line-height: 165%;
+	line-height: 178%;
 	margin-top: 35px;
 	width: 464px;
 }
